@@ -4,4 +4,4 @@
 "用cat指令查看README.md。"
 "建立了big_file.txt并用less功能交互。"
 "学会了head，tail，echo的使用。"
-"使用tail -f实现了对bigfile的追踪，并用echo和>>实现了输出转移并追踪。"
+"使用tail -f实现了对bigfile的追踪，并用echo和>\>>实现了输出转移并追踪。"
