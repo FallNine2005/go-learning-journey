@@ -3,3 +3,4 @@
 "创建了mv1.go文件并使用mv指令改名为mv.go。"
 "用cat指令查看README.md。"
 "建立了big_file.txt并用less功能交互。"
+"学会了head，tail，echo的使用。"
