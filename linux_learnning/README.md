@@ -7,3 +7,4 @@
 "使用tail -f实现了对bigfile的追踪，并用echo和>\>>实现了输出转移并追踪。"
 "使用ls -l >实现了将文件目录覆盖bigfile文件，并学习了cat >，echo >>等指令。"
 "cal指令显示日期并覆盖bigfile"
+"运用ln -s指令建立了软连接，用test_txt指向了bigfile。"
