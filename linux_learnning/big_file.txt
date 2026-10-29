@@ -505385,3 +505385,5 @@ BUGS
        There may be only one active coprocess at a time.
 
 GNU Bash 5.1                      2020 October 29                           BASH(1)
+hello
+hello
