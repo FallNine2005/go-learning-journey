@@ -2,3 +2,4 @@
 "成功使用cp指令更新了目录结构，修复了git库。"
 "创建了mv1.go文件并使用mv指令改名为mv.go。"
 "用cat指令查看README.md。"
+"建立了big_file.txt并用less功能交互。"
