@@ -8,3 +8,5 @@
 "使用ls -l >实现了将文件目录覆盖bigfile文件，并学习了cat >，echo >>等指令。"
 "cal指令显示日期并覆盖bigfile"
 "运用ln -s指令建立了软连接，用test_txt指向了bigfile。"
+"history"
+|第二天的学习内容——接下来同步github会在一天的内容完结时一同发送|
