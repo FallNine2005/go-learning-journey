@@ -2,3 +2,37 @@ total 12K
 drwxr-xr-x  3 root         root 4.0K Oct 28 12:27 .
 drwxr-xr-x 19 root         root 4.0K Oct 30 14:13 ..
 drwxr-x--- 11 fallnine2005 A    4.0K Oct 30 15:23 fallnine2005
+total 104
+drwxr-x--- 11 fallnine2005 A     4096 Nov  1 13:03 ./
+drwxr-xr-x  4 root         root  4096 Oct 30 15:59 ../
+-rw-------  1 fallnine2005 A      144 Nov  1 13:03 .Xauthority
+-rw-------  1 fallnine2005 A    20006 Oct 30 16:27 .bash_history
+-rw-r--r--  1 fallnine2005 A      220 Oct 26 08:14 .bash_logout
+-rw-r--r--  1 fallnine2005 A     3854 Oct 30 13:52 .bashrc
+drwxr-xr-x  5 fallnine2005 A     4096 Oct 28 13:12 .cache/
+drwx------  5 fallnine2005 A     4096 Oct 30 13:59 .copilot/
+drwxr-xr-x  3 fallnine2005 A     4096 Oct 26 08:20 .dotnet/
+-rw-r--r--  1 fallnine2005 A      181 Oct 26 09:47 .gitconfig
+-rw-------  1 fallnine2005 A       31 Oct 30 15:23 .lesshst
+drwxr-xr-x  3 fallnine2005 A     4096 Oct 26 09:35 .local/
+-rw-r--r--  1 fallnine2005 A        0 Nov  1 13:03 .motd_shown
+-rw-r--r--  1 fallnine2005 A      807 Oct 26 08:14 .profile
+drwx------  2 fallnine2005 A     4096 Oct 28 13:12 .ssh/
+-rw-r--r--  1 fallnine2005 A        0 Oct 26 08:25 .sudo_as_admin_successful
+drwxr-xr-x  2 fallnine2005 A     4096 Oct 30 16:11 .vim/
+-rw-------  1 fallnine2005 A    12906 Oct 30 16:11 .viminfo
+drwxr-xr-x  5 fallnine2005 A     4096 Oct 26 08:20 .vscode-server/
+drwxr-xr-x  3 fallnine2005 A     4096 Oct 28 11:06 go/
+drwxr-xr-x  6 fallnine2005 A     4096 Oct 30 15:05 projects/
+total 32
+drwxr-xr-x 3 fallnine2005 A 4096 Oct 30 15:10 ./
+drwxr-xr-x 6 fallnine2005 A 4096 Oct 30 15:05 ../
+-rw-r--r-- 1 fallnine2005 A 1665 Oct 30 16:28 README.md
+-rw-r--r-- 1 fallnine2005 A 1466 Nov  1 13:08 big_file.txt
+-rw-r--r-- 1 fallnine2005 A    0 Oct 29 15:34 mv.go
+lrwxrwxrwx 1 fallnine2005 A   12 Oct 29 16:47 test_txt -> big_file.txt
+drwxr-xr-x 5 fallnine2005 A 4096 Oct 30 15:12 testtar/
+-rw-r--r-- 1 fallnine2005 A 5802 Oct 30 15:02 testtar.tar.gz
+-rw-r--r-- 1 fallnine2005 A 3000 Oct 30 14:38 testzip.zip
+"bandit success to read,write this file"
+"success to test crontab."

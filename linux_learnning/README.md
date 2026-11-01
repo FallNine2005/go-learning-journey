@@ -22,3 +22,14 @@
 “使用ls -ahl 查看文件的组和所有者，使用useradd -g A testA来建立了一个属于组A的测试账号testA，切换账号并生成了一个test.txt文件，查询到其属于组A，使用chgrp将其组别改为B。使用usermod将testa改为组B再使用chgrp指令将testa家目录下的所有文件改为组B。”
 
 |第三天的学习内容|
+
+“使用ll指令查询文件的权限并打印去bigfiles，学习了，-，l，d，c，b的对应表示内容，学会了0-9位前置字符代表的权限含义，使用chmod修改bigfile权限为rwxr-xr--。”
+“学会了chown改变所有者和组的用法，将testa的文件夹所有者改为fallnine2005”
+“学会了chgrp（先前已经使用过）”
+“完成了警察土匪游戏实例操作————设置C，D组，设置用户police，bandit并分别加入C,D组，使用police创立文件bandit_will_die，设置权限640，随后修改为764，再将土匪bandit投降从D组移入C组检验是否可以查看警察police的文件。结果：成功。并写入bandit success to read,write this file。”
+“创建了testcrontab.txt文件，并使用crontab指令每天调用一次文件。每天会在下午2点时自动写入read.me。
+创建了testcrontab.sh脚本，并每天下午2点自动写入当前的时间日期进testcrontab2.txt文件中。”
+“使用ps -ef | gerp atd来检测atd进程是否在运行，写入一个测试用at命令，将会在5点写入一个一次性测试语句。”Sun Nov  1 17:00:00 CST 2026
+succeed to use at
+
+|第四天的内容|
