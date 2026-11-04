@@ -36,3 +36,77 @@ drwxr-xr-x 5 fallnine2005 A 4096 Oct 30 15:12 testtar/
 -rw-r--r-- 1 fallnine2005 A 3000 Oct 30 14:38 testzip.zip
 "bandit success to read,write this file"
 "success to test crontab."
+1.1M	./.cache
+0	./.motd_shown
+12K	./go
+4.0K	./.profile
+280K	./.dotnet
+4.0K	./.Xauthority
+4.0K	./.lesshst
+24K	./.ssh
+124K	./.copilot
+22M	./projects
+4.0K	./.selected_editor
+4.0K	./.bashrc
+4.0K	./.gitconfig
+12K	./.local
+24K	./.bash_history
+16K	./.viminfo
+4.0K	./.bash_logout
+0	./.sudo_as_admin_successful
+657M	./.vscode-server
+8.0K	./.vim
+680M	.
+/home/fallnine2005/
+├── go
+│   └── pkg
+│       └── mod
+└── projects
+    ├── 01-getting-started
+    │   └── hello,go
+    │       ├── README.md
+    │       └── main.go
+    ├── 02-Packages,Variables and Functions
+    │   ├── 10_Basic types of go
+    │   │   └── main.go
+    │   ├── 11_Zero
+    │   │   └── main.go
+    │   ├── 12_Type conversions
+    │   │   └── main.go
+    │   ├── 13_Type inference
+    │   │   └── main.go
+    │   ├── 14_Constants
+    │   │   └── main.go
+    │   ├── 15_Numeric constants
+    │   │   └── main.go
+    │   ├── 1_Package
+    │   │   └── main.go
+    │   ├── 2_Import
+    │   │   └── main.go
+    │   ├── 3_ Exported names
+    │   │   └── main.go
+    │   ├── 4_Functions
+    │   │   └── main.go
+    │   ├── 5_Multiple results
+    │   │   └── main.go
+    │   ├── 6_Named results
+    │   │   └── main.go
+    │   ├── 7_Variables
+    │   │   └── main.go
+    │   ├── 8_Variables with initializers
+    │   │   └── main.go
+    │   ├── 9_Short variable declarations
+    │   │   └── main.go
+    │   └── README.md
+    └── linux_learnning
+        ├── README.md
+        ├── big_file.txt
+        ├── mv.go
+        ├── test_txt -> big_file.txt
+        ├── testcrontab.sh
+        ├── testcrontab.txt
+        ├── testcrontab2.txt
+        ├── testtar.tar.gz
+        └── testzip.zip
+
+23 directories, 27 files
