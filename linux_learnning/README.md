@@ -1,3 +1,5 @@
+|第一天的学习内容|
+
 "使用linux系统成功的创建了目录和文件，学会了vim，touch，rm，mkdir等指令的操作。"
 "成功使用cp指令更新了目录结构，修复了git库。"
 "创建了mv1.go文件并使用mv指令改名为mv.go。"
@@ -46,3 +48,16 @@ succeed to use at
 “使用hostname查看主机名并尝试修改为fallnine2005-pc,但wsl会强制同步主机的pc名，因此失败，暂时挂起。”
 "镜像模式出现了问题，导致22端口被占用无法连接MoBaX，取消了镜像模式。"
 “学习了主机名与ip的关系，尝试了主机名设置与映射，但是因为wsl的特性暂时无法实验，暂且挂起。”
+
+|第五天的学习内容|
+
+“开始学习程序与进程（前台后台），学习了ps -aux指令的运用”
+“使用ps -ef显示父进程，使用kill通过进程号中止进程，使用killall通过进程名中止进程，选项-9用来强行结束。”
+“使用pstree显示进程的进程树，使用setup查看所有系统服务进程，使用service管理后台进程守护进程等，但是wsl环境不支持setup，转而使用service --status-all。”
+"可以通过使用systemctl get-default来查看当前运行级别，使用systemctl set-default TARGET.target来设置默认启动运行级别."
+“使用chkconfig命令来设置服务的运行级别的自启动，wsl中暂时没有可以被chkconfig管理的服务。”
+“学习了systemctl命令来管理服务的相关知识。包括查看服务状态（status）设置服务的自启动（enable/disable），查看服务的自启动状态（list-unit-files）等。”
+“wsl环境并不包含完整的systemctl功能，因此相关实践暂且挂起。”
+“学习了firewall-cmd --permanent --add-port/--remove-port防火墙指令来控制端口的开关。用netstat -anp来查看端口的协议。”
+“学习了使用top指令来监控正在进行的进程（动态监控），使用u来监控特定的用户，使用k来结束进程。”
+“学习了用netstat监控网路状态，知道了tcp的超时等待功能。”

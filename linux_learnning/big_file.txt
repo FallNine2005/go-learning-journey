@@ -110,3 +110,147 @@ drwxr-xr-x 5 fallnine2005 A 4096 Oct 30 15:12 testtar/
         └── testzip.zip
 
 23 directories, 27 files
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:38653         0.0.0.0:*               LISTEN      41/node             
+tcp        0      0 127.0.0.1:6010          0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:44207         0.0.0.0:*               LISTEN      99/node             
+tcp        0      0 10.255.255.254:53       0.0.0.0:*               LISTEN      -                   
+tcp        0    160 172.24.223.253:22       172.24.208.1:57450      ESTABLISHED -                   
+tcp        0      0 127.0.0.1:38653         127.0.0.1:45422         ESTABLISHED 106/node            
+tcp        0      0 127.0.0.1:38653         127.0.0.1:45410         ESTABLISHED 41/node             
+tcp        0      0 172.24.223.253:22       172.24.208.1:57451      ESTABLISHED -                   
+tcp        0      0 127.0.0.1:45410         127.0.0.1:38653         ESTABLISHED 55/node             
+tcp        0      0 127.0.0.1:45422         127.0.0.1:38653         ESTABLISHED 82/node             
+tcp6       0      0 :::22                   :::*                    LISTEN      -                   
+tcp6       0      0 ::1:6010                :::*                    LISTEN      -                   
+udp        0      0 10.255.255.254:53       0.0.0.0:*                           -                   
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           -                   
+udp6       0      0 ::1:323                 :::*                                -                   
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  3      [ ]         STREAM     CONNECTED     7184     106/node             
+unix  3      [ ]         STREAM     CONNECTED     20531    106/node             
+unix  2      [ ACC ]     STREAM     LISTENING     11286    -                    /run/WSL/1_interop
+unix  2      [ ACC ]     SEQPACKET  LISTENING     2310     -                    /mnt/wslg/weston-notify.sock
+unix  2      [ ACC ]     STREAM     LISTENING     9258     -                    /run/WSL/1_interop
+unix  2      [ ACC ]     STREAM     LISTENING     15370    -                    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     20684    106/node             
+unix  3      [ ]         STREAM     CONNECTED     8213     -                    
+unix  2      [ ACC ]     STREAM     LISTENING     8205     -                    /mnt/wslg/runtime-dir/wayland-0
+unix  2      [ ACC ]     STREAM     LISTENING     10256    -                    /run/WSL/29_interop
+unix  2      [ ACC ]     STREAM     LISTENING     8208     -                    /tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     16479    99/node              
+unix  2      [ ACC ]     STREAM     LISTENING     20686    106/node             /tmp/mcp-pM2B0V/mcp.sock
+unix  2      [ ACC ]     STREAM     LISTENING     18438    -                    /run/WSL/54_interop
+unix  3      [ ]         STREAM     CONNECTED     3160     -                    
+unix  2      [ ACC ]     STREAM     LISTENING     19468    -                    /run/WSL/77_interop
+unix  3      [ ]         STREAM     CONNECTED     7191     289/node             
+unix  2      [ ACC ]     STREAM     LISTENING     11320    -                    /mnt/wslg/runtime-dir/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     8219     -                    /mnt/wslg/PulseAudioRDPSource
+unix  2      [ ACC ]     STREAM     LISTENING     6673     -                    /mnt/wslg/PulseAudioRDPSink
+unix  3      [ ]         STREAM     CONNECTED     14352    106/node             
+unix  2      [ ACC ]     STREAM     LISTENING     11330    -                    /mnt/wslg/PulseServer
+unix  2      [ ACC ]     STREAM     LISTENING     13336    99/node              /mnt/wslg/runtime-dir/vscode-ipc-2052f091-48d6-47f4-93dc-fd2b2f51741c.sock
+unix  2      [ ACC ]     STREAM     LISTENING     20497    106/node             /mnt/wslg/runtime-dir/vscode-ipc-64c2691f-e483-4657-88c1-a497addd2dd7.sock
+unix  2      [ ACC ]     STREAM     LISTENING     21512    41/node              /mnt/wslg/runtime-dir/vscode-ipc-9884a723-f8c5-4347-9fb1-49d003742e25.sock
+unix  3      [ ]         STREAM     CONNECTED     4518     -                    /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     20543    106/node             /mnt/wslg/runtime-dir/vscode-git-f05bd129cb.sock
+unix  2      [ ]         DGRAM                    9227     -                    /var/run/chrony/chronyd.sock
+unix  3      [ ]         STREAM     CONNECTED     9252     -                    
+unix  3      [ ]         STREAM     CONNECTED     7190     106/node             
+unix  3      [ ]         STREAM     CONNECTED     15372    -                    
+unix  3      [ ]         STREAM     CONNECTED     20529    106/node             
+unix  2      [ ACC ]     STREAM     LISTENING     12301    -                    /tmp/dbus-sM0uGx12K9
+unix  2      [ ]         STREAM     CONNECTED     3140     -                    
+unix  3      [ ]         STREAM     CONNECTED     20534    189/node             
+unix  3      [ ]         STREAM     CONNECTED     20729    446/copilot-runtime  
+unix  2      [ ]         STREAM     CONNECTED     9240     -                    
+unix  3      [ ]         STREAM     CONNECTED     16478    446/copilot-runtime  
+unix  3      [ ]         STREAM     CONNECTED     20685    106/node             
+unix  3      [ ]         STREAM     CONNECTED     14356    106/node             
+unix  3      [ ]         STREAM     CONNECTED     14351    41/node              
+unix  3      [ ]         STREAM     CONNECTED     14355    41/node              
+unix  3      [ ]         STREAM     CONNECTED     7186     106/node             
+unix  3      [ ]         STREAM     CONNECTED     2364     -                    /tmp/dbus-sM0uGx12K9
+unix  3      [ ]         STREAM     CONNECTED     2315     -                    
+unix  3      [ ]         STREAM     CONNECTED     16482    446/copilot-runtime  
+unix  3      [ ]         STREAM     CONNECTED     2351     65/node              
+unix  3      [ ]         STREAM     CONNECTED     2343     -                    /mnt/wslg/PulseAudioRDPSink
+unix  2      [ ]         STREAM     CONNECTED     2390     -                    
+unix  3      [ ]         STREAM     CONNECTED     16481    99/node              
+unix  3      [ ]         STREAM     CONNECTED     7185     289/node             
+unix  3      [ ]         STREAM     CONNECTED     20532    189/node             
+unix  3      [ ]         STREAM     CONNECTED     2316     -                    
+unix  3      [ ]         STREAM     CONNECTED     21508    41/node              
+unix  3      [ ]         STREAM     CONNECTED     15373    -                    
+unix  3      [ ]         STREAM     CONNECTED     21505    -                    
+unix  3      [ ]         STREAM     CONNECTED     8212     -                    
+unix  3      [ ]         STREAM     CONNECTED     11323    -                    
+unix  3      [ ]         STREAM     CONNECTED     14354    106/node             
+unix  3      [ ]         STREAM     CONNECTED     13337    99/node              /mnt/wslg/runtime-dir/vscode-ipc-2052f091-48d6-47f4-93dc-fd2b2f51741c.sock
+unix  3      [ ]         STREAM     CONNECTED     14350    106/node             
+unix  3      [ ]         STREAM     CONNECTED     7189     289/node             
+unix  3      [ ]         STREAM     CONNECTED     20530    189/node             
+unix  3      [ ]         STREAM     CONNECTED     16477    99/node              
+unix  3      [ ]         STREAM     CONNECTED     3159     -                    
+unix  3      [ ]         STREAM     CONNECTED     2408     -                    
+unix  3      [ ]         STREAM     CONNECTED     21509    178/node             
+unix  3      [ ]         STREAM     CONNECTED     8211     -                    
+unix  3      [ ]         STREAM     CONNECTED     14353    41/node              
+unix  3      [ ]         STREAM     CONNECTED     16480    446/copilot-runtime  
+unix  3      [ ]         STREAM     CONNECTED     20533    106/node             
+unix  3      [ ]         STREAM     CONNECTED     2409     -                    
+unix  3      [ ]         STREAM     CONNECTED     7187     289/node             
+unix  3      [ ]         STREAM     CONNECTED     20527    106/node             
+unix  3      [ ]         STREAM     CONNECTED     11331    -                    
+unix  3      [ ]         STREAM     CONNECTED     2350     41/node              
+unix  3      [ ]         STREAM     CONNECTED     7188     106/node             
+unix  3      [ ]         STREAM     CONNECTED     20528    189/node             
+unix  3      [ ]         STREAM     CONNECTED     14347    99/node              
+unix  3      [ ]         STREAM     CONNECTED     20730    446/copilot-runtime  
+unix  3      [ ]         STREAM     CONNECTED     18443    41/node              
+unix  3      [ ]         STREAM     CONNECTED     14346    41/node              
+unix  3      [ ]         STREAM     CONNECTED     8210     -                    
+unix  3      [ ]         STREAM     CONNECTED     9251     -                    
+unix  3      [ ]         STREAM     CONNECTED     14349    41/node              
+[?1h=[?25l[H[2J(B[mtop - 21:34:49 up  2:08,  0 users,  load average: 0.00, 0.00, 0.00(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m  30 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m  29 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.2 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m  15907.0 (B[m[39;49mtotal,(B[m[39;49m[1m  14578.6 (B[m[39;49mfree,(B[m[39;49m[1m   1178.1 (B[m[39;49mused,(B[m[39;49m[1m    150.3 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   4096.0 (B[m[39;49mtotal,(B[m[39;49m[1m   4096.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m  14530.6 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                                                (B[m[39;49m[K
+(B[m    106 fallnin+  20   0   19.7g 421680  20968 S   6.7   2.6   1:15.48 MainThread                                                                                                                             (B[m[39;49m[K
+(B[m      1 root      20   0    3804   2740   2620 S   0.0   0.0   0:00.02 init(Ubuntu)                                                                                                                           (B[m[39;49m[K
+(B[m      8 root      20   0    3804   2276   2168 S   0.0   0.0   0:00.00 init                                                                                                                                   (B[m[39;49m[K
+(B[m     27 root      20   0   15452   1936    308 S   0.0   0.0   0:00.00 sshd                                                                                                                                   (B[m[39;49m[K
+(B[m     28 root      20   0    3820   1412   1284 S   0.0   0.0   0:00.00 SessionLeader                                                                                                                          (B[m[39;49m[K
+(B[m     29 root      20   0    3888   1480   1284 S   0.0   0.0   0:00.00 Relay(30)                                                                                                                              (B[m[39;49m[K
+(B[m     30 fallnin+  20   0    2900    420    316 S   0.0   0.0   0:00.00 sh                                                                                                                                     (B[m[39;49m[K
+(B[m     31 fallnin+  20   0    2900    436    316 S   0.0   0.0   0:00.00 sh                                                                                                                                     (B[m[39;49m[K
+(B[m     37 fallnin+  20   0    2900    428    316 S   0.0   0.0   0:00.00 sh                                                                                                                                     (B[m[39;49m[K
+(B[m     41 fallnin+  20   0 1756192  74624  11112 S   0.0   0.5   0:04.95 MainThread                                                                                                                             (B[m[39;49m[K
+(B[m     53 root      20   0    3832   1416   1284 S   0.0   0.0   0:00.00 SessionLeader                                                                                                                          (B[m[39;49m[K
+(B[m     54 root      20   0    3900   1484   1284 S   0.0   0.0   0:00.26 Relay(55)                                                                                                                              (B[m[39;49m[K
+(B[m     55 fallnin+  20   0 1423572  36260   9016 S   0.0   0.2   0:00.84 MainThread                                                                                                                             (B[m[39;49m[K
+(B[m     62 root      20   0    3832   1416   1284 S   0.0   0.0   0:00.00 SessionLeader                                                                                                                          (B[m[39;49m[K
+(B[m     65 fallnin+  20   0 1727420  25280   8228 S   0.0   0.2   0:00.83 MainThread                                                                                                                             (B[m[39;49m[K
+(B[m     77 root      20   0    3920   1632   1412 S   0.0   0.0   0:00.62 Relay(82)                                                                                                                              (B[m[39;49m[K
+(B[m     82 fallnin+  20   0 1412028  21272   4964 S   0.0   0.1   0:01.75 MainThread                                                                                                                             (B[m[39;49m[K
+(B[m     99 fallnin+  20   0   17.7g  98552  11004 S   0.0   0.6   0:02.22 MainThread                                                                                                                             (B[m[39;49m[K
+(B[m    178 fallnin+  20   0 1468164  35200   9960 S   0.0   0.2   0:05.19 MainThread                                                                                                                             (B[m[39;49m[K
+(B[m    189 fallnin+  20   0 1505344  48220  10660 S   0.0   0.3   0:01.49 MainThread                                                                                                                             (B[m[39;49m[K
+(B[m    202 fallnin+  20   0    6404   2228    324 S   0.0   0.0   0:00.00 bash                                                                                                                                   (B[m[39;49m[K
+(B[m    289 fallnin+  20   0 1495856  26056   4428 S   0.0   0.2   0:00.32 MainThread                                                                                                                             (B[m[39;49m[K
+(B[m    346 root      20   0   17172   2768    616 S   0.0   0.0   0:00.03 sshd                                                                                                                                   (B[m[39;49m[K
+(B[m    366 root      20   0   17176   2480    324 S   0.0   0.0   0:00.02 sshd                                                                                                                                   (B[m[39;49m[K
+(B[m    375 fallnin+  20   0   17444   3552    904 S   0.0   0.0   0:00.09 sshd                                                                                                                                   (B[m[39;49m[K
+(B[m    377 fallnin+  20   0    7264   4640   2108 S   0.0   0.0   0:00.12 bash                                                                                                                                   (B[m[39;49m[K
+(B[m    415 fallnin+  20   0   17176   2736    316 S   0.0   0.0   0:00.00 sshd                                                                                                                                   (B[m[39;49m[K
+(B[m    416 fallnin+  20   0    7784   1448    324 S   0.0   0.0   0:00.00 sftp-server                                                                                                                            (B[m[39;49m[K
+(B[m    446 fallnin+  20   0 2876372  61928    840 S   0.0   0.4   0:00.96 copilot-runtime                                                                                                                        (B[m[39;49m[K
+(B[m[1m  24391 fallnin+  20   0    7844   3864   3192 R   0.0   0.0   0:00.00 top                                                                                                                                    (B[m[39;49m[K
+[J[?1l>[59;1H
+[?12l[?25h[K
