@@ -253,4 +253,11 @@ MiB Swap:(B[m[39;49m[1m   4096.0 (B[m[39;49mtotal,(B[m[39;49m[1m   40
 (B[m    446 fallnin+  20   0 2876372  61928    840 S   0.0   0.4   0:00.96 copilot-runtime                                                                                                                        (B[m[39;49m[K
 (B[m[1m  24391 fallnin+  20   0    7844   3864   3192 R   0.0   0.0   0:00.00 top                                                                                                                                    (B[m[39;49m[K
 [J[?1l>[59;1H
-[?12l[?25h[K
+[?12l[?25h[K/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+当前执行的进程id=34329
+100
+200
+Sat Nov 7 15:52:55 CST 2026
+D=Sat Nov  7 15:52:55 CST 2026
+0=./var.sh,1=100,2=200
+结果=300
