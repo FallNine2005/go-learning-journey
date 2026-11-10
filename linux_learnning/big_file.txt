@@ -261,3 +261,13 @@ Sat Nov 7 15:52:55 CST 2026
 D=Sat Nov  7 15:52:55 CST 2026
 0=./var.sh,1=100,2=200
 结果=300
+#!/bin/bash
+if [ "ok" = "ok" ]
+then
+	echo "equal"
+fi
+
+if [ "$1" -eq 100 ]
+then
+	echo "yes"
+fi
