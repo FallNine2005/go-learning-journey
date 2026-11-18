@@ -26,6 +26,14 @@ var (
 	// Pi string  = "3.1415926"
 )
 
+// func jia(x ...int) int {
+// 	sum := 0
+// 	for _, v := range x {
+// 		sum += v
+// 	}
+// 	return sum
+// }
+
 func main() {
 	fmt.Printf("username=%v,age=%v,qq=%v,phone=%v\n", username, age, qq, phone)
 	// a, b, c := 10, 20, 30
@@ -121,4 +129,114 @@ func main() {
 	// 	fmt.Println("false")
 	// }
 
+	// var arr1 [3]int
+	// var arr2 [4]int
+	// arr1[0] = 1
+	// arr1[1] = 2
+	// arr1[2] = 3
+	// arr2[0] = 4
+	// arr2[1] = 5
+	// arr2[2] = 6
+	// arr2[3] = 7
+	// fmt.Println(arr1)
+	// fmt.Println(arr2)
+
+	// var aar1 = [...]string{"你", "好", "GOlang"}
+	// fmt.Println(aar1)
+
+	// var arr1 = [3]int{1, 2, 3}
+	// for i := 0; i < len(arr1); i++ {
+	// 	fmt.Println(arr1[i])
+	// }
+
+	// var arr1 = []int{1, 2, 3}
+	// arr2 := arr1
+	// arr1[0] = 100
+	// fmt.Println(arr1)
+	// fmt.Println(arr2)
+
+	// var arr1 = [3][2]int{
+	// 	{1, 2},
+	// 	{3, 4},
+	// 	{5, 6},
+	// }
+	// arr1[0][0] = 100
+	// fmt.Println(arr1)
+
+	// var arr1 []int
+	// fmt.Printf("%v-%T-%v", arr1, arr1, len(arr1))
+	// fmt.Println()
+
+	// a := [5]int{1, 2, 3, 4, 5}
+	// b := a[:]
+	// c := a[1:4]
+	// fmt.Println(b)
+	// fmt.Println(c)
+
+	// var arr1 = make([]int, 5, 10)
+	// fmt.Printf("%v-%T-%v-%v\n", arr1, arr1, len(arr1), cap(arr1))
+
+	// var arr1 [1]int
+	// arr1[0] = 1
+	// fmt.Println(arr1)
+	// var arr2 []int
+	// arr2 = append(arr2, 1)
+	// fmt.Println(arr2)
+
+	// var arr1 = []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	// arr1 = append(arr1[:3], arr1[6:]...)
+	// fmt.Println(arr1)
+
+	// var userinfo = make(map[string]string)
+	// userinfo["username"] = "潘徐锦鹏"
+	// userinfo["age"] = "22"
+	// userinfo["sex"] = "男"
+	// userinfo["username"] = "张三"
+	// v, k := userinfo["username"]
+	// delete(userinfo, "username")
+	// userinfo["username"] = "潘徐锦鹏"
+	// fmt.Println(v, k)
+	// fmt.Println(userinfo)
+	// fmt.Println(userinfo["username"])
+	// fmt.Println(userinfo["age"])
+	// fmt.Println(userinfo["sex"])
+
+	// var userinfo = make([]map[string]string, 2)
+	// if userinfo[0] == nil {
+	// 	userinfo[0] = make(map[string]string)
+	// 	userinfo[0]["username"] = "潘徐锦鹏"
+	// 	userinfo[0]["age"] = "22"
+	// 	userinfo[0]["sex"] = "男"
+	// }
+	// if userinfo[1] == nil {
+	// 	userinfo[1] = make(map[string]string)
+	// 	userinfo[1]["username"] = "张三"
+	// 	userinfo[1]["age"] = "20"
+	// 	userinfo[1]["sex"] = "女"
+	// }
+	// fmt.Println(userinfo)
+
+	// var userinfo = make(map[string]string)
+	// userinfo["user1"] = "潘徐锦鹏" + "," + "22" + "," + "男"
+	// userinfo["user2"] = "张三" + "," + "20" + "," + "女"
+	// fmt.Println(userinfo)
+
+	// var user1 = make([]string, 3)
+	// user1[0] = "潘徐锦鹏"
+	// user1[1] = "22"
+	// user1[2] = "男"
+	// var user2 = make([]string, 3)
+	// user2[0] = "张三"
+	// user2[1] = "20"
+	// user2[2] = "女"
+	// var userinfo2 = make(map[string][]string)
+	// userinfo2["user1"] = user1
+	// userinfo2["user2"] = user2
+	// fmt.Println(userinfo2)
+
+	// fmt.Println("请输入三个数字：")
+	// var x, y, z int
+	// fmt.Scanln(&x, &y, &z)
+	// result := jia(x, y, z)
+	// fmt.Println(result)
 }
